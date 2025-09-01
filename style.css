@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    #
 }
 
 /* Smooth scrolling */
@@ -114,6 +115,14 @@ header {
     flex-wrap: wrap;
 }
 
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 /* Hero Section */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
@@ -209,4 +218,5 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
 }
