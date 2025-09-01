@@ -50,6 +50,41 @@ header {
 .nav-links li a:hover {
     color: #f39c12;
 }
+/* Skills Section */
+.skills {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.skill-container {
+    max-width: 800px;
+    margin: 30px auto 50px auto;
+}
+
+.skill {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.skill p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.skill-level {
+    height: 100%;
+    width: 0;
+    border-radius: 20px;
+}
+
 
 /* Hero Section */
 .hero {
