@@ -85,6 +85,34 @@ header {
     border-radius: 20px;
 }
 
+/* Individual skill levels */
+.skill-level.html {
+    width: 95%;
+    background-color: #e34f26;
+}
+
+.skill-level.css {
+    width: 90%;
+    background-color: #264de4;
+}
+
+.skill-level.js {
+    width: 10%;
+    background-color: #f0db4f;
+}
+
+.skill-level.react {
+    width: 10%;
+    background-color: #61dbfb;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
 /* Hero Section */
 .hero {
