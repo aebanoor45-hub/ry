@@ -1,28 +1,70 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Site Maintenance</title>
-  <style>
-    body {
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      height:100vh;
-      font-family:Arial, sans-serif;
-      background:#f4f7fa;
-      text-align:center;
-      color:#333;
-    }
-    h1 { font-size:36px; margin-bottom:20px; }
-    p { font-size:18px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <h1>We'll be back soon!</h1>
-    <p>Our website is currently under planned maintenance. Please check back shortly.</p>
-  </div>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Hello, I'm <span>RASHAD A-EBANOOR YUSSIF</span></h1>
+        <p>Frontend Developer | Designer | Problem Solver</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+         I’m an undergraduate student in Information Technology with a strong interest in building and designing websites. Right now, I’m skilled in HTML and CSS, and I’m gradually learning other areas like JavaScript, databases, and cloud technologies. I enjoy exploring how technology solves real problems and I’m eager to grow my skills, take on new challenges, and build a career in the IT field.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Responsive personal dashboard built with HTML & CSS.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Portfolio redesign with modern layout.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Landing page with smooth scrolling effects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email:aebanoor45@gmail.com</p>
+        <p>Phone: +233 505982236</p>
+        <a href="mailto:aebanoor45@gmail.com" class="btn">Send a Message</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 . All rights reserved.</p>
+    </footer>
 </body>
 </html>
